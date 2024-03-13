@@ -4,6 +4,7 @@ import './index.css'
 import {Avetar,Intro} from "./card.js"
 const pizzaData = [
     {
+
       name: "Focaccia",
       ingredients: "Bread with italian olive oil and rosemary",
       price: 6,
@@ -82,16 +83,16 @@ const pizzaData = [
   
 function App(){
     return(
-      <div className="card">
-          <Avetar />
-          <Intro />
-          <Skills />
-      </div>
-      // <div>
-      //   <Header />
-      //   <Menu />
-      //   <Footer />
+      // <div className="card">
+      //     <Avetar />
+      //     <Intro />
+      //     <Skills />
       // </div>
+      <div>
+        <Header />
+        <Menu />
+        <Footer />
+      </div>
         // <div className="card">
         // <img src="pizzas/funghi.jpg"></img>
         // <Content />
